@@ -1,0 +1,10 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">	
+		<bean id="metroLinkStationStops" class="main.java.MetroLinkStationStops"></bean>
+		<bean id="queryMetroLink" class="main.java.QueryMetroLink"></bean>
+		<bean id="stop" class="main.java.Stop"></bean>
+		<bean id="promptLocalStation" class="main.java.PromptLocalStation"></bean>
+		<bean id="metroLinkArrival" class="main.java.MetroLinkArrival"></bean>
+</beans>
